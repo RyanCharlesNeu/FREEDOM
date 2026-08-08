@@ -52,4 +52,3 @@ Freedom competed at NHRL as part of Villanova Combat Robotics' first-ever compet
 ## Future Work
 
 - **Weapon system iteration** based on lessons learned from competition performance
-- **Additional CAD and build documentation** as more photos and footage become available
