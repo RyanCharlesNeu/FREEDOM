@@ -28,7 +28,7 @@ The weapon system went through multiple design iterations in SolidWorks before b
 ## Fabrication
 
 <!-- PLA PROTOTYPE -->
-<!-- <img src="assets/freedom-pla-prototype.jpg" width="55%" /> -->
+<!-- <img src="assets/FREEDOMPLACROPPED.jpeg" width="55%" /> -->
 
 *PLA prototype of the weapon system, used to validate fit and geometry before machining the final components.*
 
