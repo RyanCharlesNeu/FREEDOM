@@ -6,7 +6,7 @@
 **Role: Weapon Systems Design Lead**
 
 <!-- HERO IMAGE: final photo of the bot, or CAD render if photo isn't available -->
-<img src="assets/CombatRobotComImage.png" width="55%" />
+<img src="assets/CombatRobotCompImage.png" width="55%" />
 
 ## Overview
 
