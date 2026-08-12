@@ -30,6 +30,8 @@ As Weapon Systems Design Lead, I owned the full weapon system: from selecting pa
 
 
 ## Design & CAD
+<!-- <img src="assets/Screenshot%202026-08-12%20165048.pngg" width="49%" /> -->
+
 
 <!-- CHASSIS CAD -->
 <img src="assets/CADCombatRobot.png" width="56%" /> 
