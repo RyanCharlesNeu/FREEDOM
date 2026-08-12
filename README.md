@@ -42,7 +42,7 @@ Electrical integration included soldering, tuning motor controllers, and configu
 
 <!-- DRIVING DEMO VIDEO -->
 <video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
-*Demo: Freedom driving under remote control.*
+*Demo: FREEDOM driving under remote control.*
 
 ## Status
 
