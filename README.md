@@ -28,7 +28,7 @@ The weapon system went through multiple design iterations in SolidWorks before b
 ## Fabrication
 
 <!-- PLA PROTOTYPE -->
- <img src="assets/FREEDOMPLACROPPED.jpeg" width="55%" />
+ <img src="assets/FREEDOMPLACROPPED.jpeg" width="56%" />
 
 *PLA prototype of the weapon system, used to validate fit and geometry before machining the final components.*
 
@@ -41,7 +41,7 @@ Electrical integration included soldering, tuning motor controllers, and configu
 ## Testing & Demo
 
 <!-- DRIVING DEMO VIDEO -->
-https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c
+<video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="480"></video>
 
 *Demo: Freedom driving under remote control.*
 
