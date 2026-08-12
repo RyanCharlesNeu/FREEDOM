@@ -13,7 +13,7 @@
 Freedom is a 3lb vertical spinner combat robot built for the National Havoc Robotics League (NHRL), one of the largest competitive combat robotics circuits in the country. Freedom was part of the first cohort of robots Villanova Combat Robotics ever brought to competition, the club's first appearance at NHRL.
 
 As Weapon Systems Design Lead, I owned the full weapon system: CAD design and iteration in SolidWorks, machining the components on a lathe and mill, and integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition.
-## Component List
+## Bill of Materials
 | Component | Function | Part | Photo |
 |---|---|---|---|
 | Weapon Motor | Drives the weapon system | BadAss 2315-1480Kv Brushless Motor | <img src="assets/LIVELINE2%20%285%29.png" width="80" /> |
