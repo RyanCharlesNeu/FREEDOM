@@ -42,7 +42,7 @@ As Weapon Systems Design Lead, I owned the full weapon system: from selecting pa
 
 *Chassis CAD and weapon system CAD assembly with all subcomponents modeled in SolidWorks.*
 
-The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team.
+The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage delt, reliability and weight.
 
 ## Fabrication
 
