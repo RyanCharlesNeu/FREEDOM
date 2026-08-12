@@ -17,11 +17,11 @@ As Weapon Systems Design Lead, I owned the full weapon system: CAD design and it
 ## Design & CAD
 
 <!-- CHASSIS CAD -->
-<!-- <img src="assets/freedom-chassis-cad.png" width="49%" /> -->
+<img src="assets/CADCombatRobot.png" width="56%" /> 
 <!-- WEAPON CAD -->
 <!-- <img src="assets/freedom-weapon-cad.png" width="49%" /> -->
 
-*Chassis CAD (left) and weapon system CAD (right), modeled in SolidWorks.*
+*Chassis CAD and weapon system CAD assembly with all sub components modeled in SolidWorks.*
 
 The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team.
 
@@ -41,7 +41,7 @@ Electrical integration included soldering, tuning motor controllers, and configu
 ## Testing & Demo
 
 <!-- DRIVING DEMO VIDEO -->
-<!-- [drag video file into editor here] -->
+https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c
 
 *Demo: Freedom driving under remote control.*
 
