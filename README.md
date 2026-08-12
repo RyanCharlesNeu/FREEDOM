@@ -30,9 +30,11 @@ As Weapon Systems Design Lead, I owned the full weapon system: from selecting pa
 
 
 ## Design & CAD
-<!-- <img src="assets/" width="49%" /> -->
+### Weapon
+<img src="assets/Screenshot 2026-08-12 165048.png" width="49%" /> 
+*CAD design of vertical spinner.*
 
-
+### Chassis 
 <!-- CHASSIS CAD -->
 <img src="assets/CADCombatRobot.png" width="56%" /> 
 <!-- WEAPON CAD -->
