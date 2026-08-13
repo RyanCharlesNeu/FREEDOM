@@ -8,16 +8,24 @@
 <!-- HERO IMAGE: final photo of the bot, or CAD render if photo isn't available -->
 <img src="assets/CombatRobotCompImage.png" width="55%" />
 
+| Spec | Value |
+|---|---|
+| Weight Class | 3 lb (Beetleweight) |
+| Weapon Type | Vertical Spinner |
+| Drivetrain | 2-wheel, belt-driven |
+| Competition | NHRL |
+
 ## Overview
 
 Freedom is a 3lb vertical spinner combat robot built for the National Havoc Robotics League (NHRL), one of the largest competitive combat robotics circuits in the country. Freedom was part of the first cohort of robots Villanova Combat Robotics ever brought to competition, the club's first appearance at NHRL.
 
-As Weapon Systems Design Lead, I owned the full weapon system: from selecting parts, CAD design and iteration in SolidWorks, machining the components on a lathe and mill, and integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition.
+As Weapon Systems Design Lead, I owned the full weapon system, from selecting parts, CAD design and iteration in SolidWorks, machining the components on a lathe and mill, to integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition. Beyond the weapon system, I also supported the build more broadly: collaborating with teammates on integration across subsystems, weighing in on part selection for the platform, contributing to chassis design, tracking the robot's weight against the 3lb limit using a shared weight-budget spreadsheet, and assisting with machining and electronics work outside my own scope. As this was Villanova Combat Robotics' first competition build, most of the process was worked out as a team in real time, which meant frequent coordination on design tradeoffs and build priorities across the group.
+
 ## Bill of Materials
 | Component | Function | Part | Photo |
 |---|---|---|---|
 | Weapon Motor | Drives the weapon system | BadAss 2315-1480Kv Brushless Motor | <img src="assets/WheelMotor.jpg" width="80" /> |
-| Drive Motor | Powers wheel drivetrain | Max Brushless 2006 Mk2 – Beetleweight Planetary Gearmotor | <img src="assets/DriveMotor.webp" width="80" /> |
+| Drive Motor | Powers wheel drivetrain | Max Brushless 2006 Mk2 Beetleweight Planetary Gearmotor | <img src="assets/DriveMotor.webp" width="80" /> |
 | Weapon ESC | Controls weapon motor speed | Vortex 80A ESC (Beetle Weapon / Big Bot Drive) | <img src="assets/WeaponsESC.webp" width="80" /> |
 | Weapon Metal | Raw stock for weapon fabrication | 2" Alloy Steel Round Bar, 4140 Annealed, Cold Finish | <img src="assets/ESC.webp" width="80" /> |
 | Dead Shaft Metal | Raw stock for dead shaft fabrication | 1/2" Alloy Steel Round Bar, 4140 Annealed, Cold Finish | <img src="assets/DeadShaft.jpg" width="80" /> |
@@ -28,48 +36,48 @@ As Weapon Systems Design Lead, I owned the full weapon system: from selecting pa
 | Wheels | Provide traction/mobility | BaneBots Wheel, 2" x 0.8", Hub Mount, 50A, Blue | <img src="assets/Wheelscombatrobot.jpg" width="80" /> |
 | Wheel Hubs | Mount wheels to drive shaft | T81 Hub, 6 mm Shaft | <img src="assets/T81H-RM61__49607.jpg" width="80" /> |
 
-
 ## Design & CAD
 ### Weapon
-<img src="assets/Screenshot 2026-08-12 165048.png" width="49%" /> 
-*CAD design of vertical spinner.*
+<img src="assets/Screenshot 2026-08-12 220451.png" width="56%" />
 
-### Chassis 
+*CAD design of the vertical spinner and dead shaft assembly.*
+
+### Chassis
 <!-- CHASSIS CAD -->
-<img src="assets/CADCombatRobot.png" width="56%" /> 
+<img src="assets/CADCombatRobot.png" width="56%" />
 <!-- WEAPON CAD -->
 <!-- <img src="assets/freedom-weapon-cad.png" width="49%" /> -->
 
-*Chassis CAD and weapon system CAD assembly with all subcomponents modeled in SolidWorks.*
+*Chassis CAD, built around a low-profile carbon fiber plate to minimize weight while protecting the drivetrain and electronics from opposing weapons.*
 
-The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage delt, reliability and weight.
+The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage dealt, reliability, and weight.
 
 ## Fabrication
 
 <!-- PLA PROTOTYPE -->
- <img src="assets/FREEDOMPLACROPPED.jpeg" width="56%" />
+<img src="assets/FREEDOMPLACROPPED.jpeg" width="56%" />
 
-*PLA prototype of the FREEDOM, used to validate fit and geometry before machining the final components.*
+*PLA prototype of Freedom, used to validate fit and geometry before machining the final components.*
 
 Once the design was validated in PLA, the final weapon system components were machined on a lathe and mill to produce a functional, competition-ready system.
 
 ## Electronics
 
- <img src="assets/ElectronicsCrop.png" width="57%" />
+<img src="assets/ElectronicsCrop.png" width="57%" />
 
-*PLA prototype with electronics for driving test.*
-Electrical integration included soldering, tuning motor controllers, and configuring the receiver for reliable operation under competition conditions.
+*PLA prototype with electronics installed for driving test.*
+
+Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, and configuring the receiver (mapping controller inputs to the correct channel outputs) for reliable control under competition conditions.
 
 ## Testing & Demo
 
 <!-- DRIVING DEMO VIDEO -->
 <video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
-*Demo: FREEDOM driving under remote control.*
+
+*Demo: Freedom driving under remote control.*
 
 ## Status
 
-Freedom competed at NHRL as part of Villanova Combat Robotics' first-ever competition cohort. The weapon system, from CAD through machining and electrical integration, was designed, built, and fielded as a complete, competition-ready system.
+Freedom competed at NHRL as part of Villanova Combat Robotics' first-ever competition cohort. The weapon's final geometry wasn't fully compatible with available CNC processes, so key features had to be manually machined, introducing tolerance and balance error. Under competition RPM, this caused the weapon to vibrate loose mid-match, and the bot was eliminated quickly as a result. The weapon system, from CAD through machining and electrical integration, was designed, built, and fielded as a complete, competition-ready system, and this manufacturing constraint directly shaped the redesign priorities below.
 
 ## Future Work
-
-- **Weapon system iteration** based on lessons learned from competition performance
