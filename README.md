@@ -69,8 +69,6 @@ Electronics was another main area where I worked closely with the chassis team, 
 
 ## Status
 
-## Status
-
 FREEDOM competed at NHRL as part of Villanova Combat Robotics' first-ever competition cohort. The night before competition, the CNC machine's chuck shattered with no replacement available, forcing the team to manually machine key weapon features under significant time pressure. This left no window to test the weapon system before competition, and the resulting parts had tolerance and balance error that the manual process couldn't fully control. Under competition RPM, this caused the weapon to vibrate loose mid-match, and the bot was eliminated quickly as a result. The weapon system, from CAD through machining and electrical integration, was designed, built, and fielded as a complete, competition-ready system, and this experience directly shaped both the lessons below and my priorities heading into this year's build.
 
 ## Lessons Learned
