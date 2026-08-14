@@ -86,7 +86,7 @@ FREEDOM competed at NHRL as part of Villanova Combat Robotics' first-ever compet
 
 ## Future Work
 
-This year, I'm stepping into a broader leadership role as co-lead for the entire robot, rather than just the weapon system, while continuing to lead weapon system development directly. Planned changes for the next build include:
+This year, I'm stepping into a broader leadership role as co-lead for the entire robot, directing mechanical design and build scheduling across all subsystems, while continuing to lead weapon system development directly. I'm also developing a training curriculum for new members covering soldering, SolidWorks/CAD, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA, to build technical capacity across the growing team. Planned changes for the next build include:
 
 - **Shortening the weapon** to reduce weight, moment of inertia, and stress on the mount, easing both machining tolerances and structural demands
 - **Redesigning the weapon shape** to be more robust to imprecision from manual machining, in case CNC access is disrupted again
