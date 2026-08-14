@@ -63,7 +63,7 @@ Electronics was another main area where I worked closely with the chassis team, 
 
 *PLA prototype with electronics installed for driving test.*
 
-<img src="assets/Flyskycontroller.jpeg" width="40%" />
+<img src="assets/Flyskycontroller.jpeg" width="35%" />
 
 *FlySky transmitter subtrim configuration, used to fine-tune channel centering and drive responsiveness ahead of competition.*
 
