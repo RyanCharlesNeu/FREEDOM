@@ -28,6 +28,8 @@ As Weapon Systems Design Lead, I focused on the full weapon system: selecting pa
 | Timing Belt | Transmits drive motor power | High-Strength Ultra-Quiet Timing Belt, Curved Teeth, 9 mm, 165-3P-09, Gates PowerGrip GT | <img src="assets/TimingBeltcrop.png" width="80" /> |
 | Wheels | Provide traction/mobility | BaneBots Wheel, 2" x 0.8", Hub Mount, 50A, Blue | <img src="assets/Wheelscombatrobot.jpg" width="80" /> |
 | Wheel Hubs | Mount wheels to drive shaft | T81 Hub, 6 mm Shaft | <img src="assets/T81H-RM61__49607.jpg" width="80" /> |
+| Transmitter | Sends control inputs to robot | FlySky FS-i6 6CH Transmitter | <img src="assets/TRANSMITTER_PHOTO.jpg" width="80" /> |
+| Receiver | Receives transmitter signal, outputs to ESCs | FlySky FS-iA6B 6CH Receiver | <img src="assets/RECEIVER_PHOTO.jpg" width="80" /> |
 
 ## Design & CAD
 The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage dealt, reliability, and weight. Throughout this process, I worked closely with the chassis team to make sure the weapon would mount correctly, function as intended within the chassis geometry, and stay within the robot's overall weight budget.
@@ -54,11 +56,16 @@ The weapon system went through multiple design iterations in SolidWorks before b
 
 ## Electronics
 
+Electronics was another main area where I worked closely with the chassis team, drawing on prior experience with RC controllers to help the group get the system running reliably. Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, configuring the receiver (mapping controller inputs to the correct channel outputs), and adjusting the throttle curve to fine-tune drive responsiveness for competition conditions.
+
+
 <img src="assets/ElectronicsCrop.png" width="57%" />
 
 *PLA prototype with electronics installed for driving test.*
 
-Electronics was another main area where I worked closely with the chassis team, drawing on prior experience with RC controllers to help the group get the system running reliably. Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, configuring the receiver (mapping controller inputs to the correct channel outputs), and adjusting the throttle curve to fine-tune drive responsiveness for competition conditions.
+<img src="assets/SubtrimScreenshot.jpg" width="55%" />
+
+*FlySky transmitter subtrim configuration, used to fine-tune channel centering and drive responsiveness ahead of competition.*
 
 ## Testing & Demo
 
