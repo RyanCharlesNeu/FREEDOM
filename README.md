@@ -47,7 +47,7 @@ flowchart LR
 
 ## Demo
 
-<video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
+https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c
 
 *Drivetrain under remote control. The weapon isn't shown, since no safe testing environment was available before competition.*
 
@@ -123,7 +123,7 @@ Electronics was another area where I worked closely with the chassis team, drawi
 
 ### Drive Test
 
-<video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
+https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c
 
 *Drivetrain under remote control ahead of competition.*
 
