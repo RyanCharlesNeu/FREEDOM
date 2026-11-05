@@ -1,20 +1,88 @@
 # FREEDOM
 **3lb Vertical Spinner Combat Robot**
 <br>
-**Villanova Combat Robotics | National Havoc Robotics League (NHRL)**
-<br>
-**Role: Weapon Systems Design Lead**
+Villanova Combat Robotics | National Havoc Robotics League (NHRL) | Role: Weapon Systems Design Lead
 
-<!-- HERO IMAGE: final photo of the bot, or CAD render if photo isn't available -->
+A 3lb vertical spinner built for NHRL, one of the largest combat robotics circuits in the country. FREEDOM was part of Villanova Combat Robotics' first-ever competition cohort and the club's first NHRL appearance.
+
 <img src="assets/CombatRobotCompImage.png" width="55%" />
 
-## Overview
+## Status at a Glance
 
-FREEDOM is a 3lb vertical spinner combat robot built for the National Havoc Robotics League (NHRL), one of the largest competitive combat robotics circuits in the country. FREEDOM was part of the first cohort of robots Villanova Combat Robotics ever brought to competition, and the club's first appearance at NHRL.
+```mermaid
+flowchart LR
+    subgraph DES["Design"]
+        A["Part selection +<br/>weight budget"] --> B["SolidWorks CAD<br/>weapon iterations"]
+        B --> C["FEA of dead shaft<br/>+ weapon"]
+        B --> D["Chassis integration<br/>with chassis team"]
+    end
 
-As Weapon Systems Design Lead, I focused on the full weapon system: selecting parts, designing and iterating the CAD in SolidWorks, machining the components on a lathe and mill, and integrating the electronics (soldering, motor controller tuning, and receiver configuration) needed to get the system running reliably in competition. Beyond the weapon system, I also supported the build more broadly. I collaborated with teammates on integration across subsystems, weighed in on part selection for the platform, contributed to chassis design, and tracked the robot's weight against the 3lb limit using a shared weight budget spreadsheet. I also assisted with machining and electronics work outside my own scope. As this was Villanova Combat Robotics' first competition build, most of the process was worked out as a team in real time. That meant frequent coordination on design tradeoffs and build priorities across the group.
+    subgraph BUILD["Build"]
+        E["PLA prototype<br/>fit check"] --> F["Lathe + mill<br/>4140 steel parts"]
+        G["Electronics: soldering,<br/>ESC tuning, receiver"] --> H["RC drivetrain<br/>test"]
+    end
 
-## Bill of Materials
+    subgraph COMP["Competition"]
+        I["Fielded at NHRL<br/>club's first event"]
+    end
+
+    C --> E
+    D --> E
+    F --> I
+    H --> I
+
+    classDef done fill:#2e7d32,color:#fff,stroke:#1b5e20
+    class A,B,C,D,E,F,G,H,I done
+```
+
+*Full weapon system taken from part selection and CAD through machining, electronics, and competition.*
+
+## Key Results
+
+- **Complete weapon system fielded:** designed, machined, and integrated a belt-driven vertical spinner for the club's first NHRL competition.
+- **Dead shaft weapon design:** spinner runs on ball bearings around a stationary 4140 steel dead shaft, with FEA confirming the shaft and weapon could take impact loading.
+- **In-house machining:** dead shaft turned and weapon hub milled from 4140 alloy steel on a lathe and mill.
+- **Electronics integration:** soldered the power chain, tuned weapon and drive ESCs, mapped receiver channels, and adjusted the throttle curve for drive response.
+- **Recovered from a fabrication failure:** when the CNC chuck shattered the night before competition, the team manually machined key weapon features to still field the robot.
+
+## Demo
+
+<video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
+
+*Drivetrain under remote control. The weapon isn't shown, since no safe testing environment was available before competition.*
+
+## Competition Outcome and Lessons
+
+With the CNC down, key weapon features were machined by hand under time pressure, leaving no window to test the weapon before competition. The manual parts had tolerance and balance error, and at competition RPM the weapon vibrated loose mid-match, eliminating the robot early.
+
+- **Build in schedule margin.** One equipment failure removed all testing time. Machining and assembly need to finish early enough to absorb a setback.
+- **Avoid single points of failure in fabrication.** A backup machine, outside shop, or design that tolerates manual machining would have kept one broken part from cascading.
+- **Weapon length drove much of the difficulty.** It took a large share of the weight budget, tightening margins everywhere else and likely worsening the tolerance and balance issues.
+
+---
+
+## Background and Role
+
+As Weapon Systems Design Lead, I owned the full weapon system: part selection, SolidWorks design and iteration, lathe and mill machining, and electronics integration. I also supported the wider build: integrating across subsystems, part selection for the platform, chassis design, machining and electronics outside my scope, and tracking weight against the 3lb limit with a shared weight budget spreadsheet. As the club's first competition build, most of the process was worked out as a team in real time.
+
+## Technical Details
+
+### Weapon Design
+
+Weapon iterations focused on damage output, reliability, and weight. I worked closely with the chassis team so the weapon mounted correctly, fit the chassis geometry, and stayed within the weight budget.
+
+<img src="assets/Screenshot 2026-08-12 220451.png" width="56%" />
+
+*Vertical spinner and dead shaft assembly. Ball bearings and 3D-printed spacers sit on the stationary dead shaft so the spinner can be belt-driven. The shaft mounts to aluminum side walls in the chassis. Simple FEA confirmed the shaft and weapon could withstand impact loading.*
+
+### Chassis
+
+<img src="assets/CADCombatRobot.png" width="56%" />
+
+*Chassis built around a low-profile carbon fiber plate to save weight while protecting the drivetrain and electronics.*
+
+### Bill of Materials
+
 | Component | Function | Part | Photo |
 |---|---|---|---|
 | Weapon Motor | Drives the weapon system | BadAss 2315-1480Kv Brushless Motor | <img src="assets/WheelMotor.jpg" width="80" /> |
@@ -31,63 +99,40 @@ As Weapon Systems Design Lead, I focused on the full weapon system: selecting pa
 | Transmitter | Sends control inputs to robot | FlySky FS-i6 6CH Transmitter | <img src="assets/RecieverBOM.jpg" width="80" /> |
 | Receiver | Receives transmitter signal, outputs to ESCs | FlySky FS-iA6B 6CH Receiver | <img src="assets/Screenshot 2026-08-14 005118.png" width="80" /> |
 
-## Design & CAD
-The weapon system went through multiple design iterations in SolidWorks before being finalized for machining. As Weapon Systems Design Lead, this design work, and the machining that followed, was my primary responsibility on the team. Design iterations were mainly focused on maximizing damage dealt, reliability, and weight. Throughout this process, I worked closely with the chassis team to make sure the weapon would mount correctly, function as intended within the chassis geometry, and stay within the robot's overall weight budget.
+---
 
-### Weapon
-<img src="assets/Screenshot 2026-08-12 220451.png" width="56%" />
+## Build Log
 
-*CAD design of the vertical spinner and dead shaft assembly. The weapon uses ball bearings and 3D-printed spacers mounted on the dead shaft, allowing the spinner to be belt-driven while the shaft itself remains stationary. The dead shaft mounts to aluminum side walls, shown below in the Chassis design. Simple FEA was performed to confirm the dead shaft and weapon could withstand impact loading from opposing robots.*
+### Fabrication
 
-### Chassis
-<!-- CHASSIS CAD -->
-<img src="assets/CADCombatRobot.png" width="56%" />
-<!-- WEAPON CAD -->
-<!-- <img src="assets/freedom-weapon-cad.png" width="49%" /> -->
-
-*Chassis CAD, built around a low-profile carbon fiber plate to minimize weight while protecting the drivetrain and electronics.*
-
-## Fabrication
-
-<!-- PLA PROTOTYPE -->
 <img src="assets/FREEDOMPLACROPPED.jpeg" width="56%" />
 
-*Once the design was validated in PLA, the final weapon system components were machined from 4140 alloy steel on a lathe and mill, including turning the dead shaft and milling the weapon hub to final tolerance.*
+*PLA prototype used to validate the design. Final weapon components were then machined from 4140 alloy steel on a lathe and mill, including turning the dead shaft and milling the weapon hub to final tolerance.*
 
-## Electronics
+### Electronics
 
-Electronics was another main area where I worked closely with the chassis team, drawing on prior experience with RC controllers to help the group get the system running reliably. Electrical integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, configuring the receiver (mapping controller inputs to the correct channel outputs), and adjusting the throttle curve to fine-tune drive responsiveness for competition conditions.
-
+Electronics was another area where I worked closely with the chassis team, drawing on prior RC experience. Integration covered the full signal and power chain: soldering motor and battery connections, tuning the weapon and drive ESCs for consistent throttle response, mapping controller inputs to the correct receiver channels, and adjusting the throttle curve for competition driving.
 
 <img src="assets/ElectronicsCrop.png" width="57%" />
 
-*PLA prototype with electronics installed for driving test.*
+*PLA prototype with electronics installed for a driving test.*
 
 <img src="assets/IMG_1314.jpeg" width="35%" />
 
-*FlySky transmitter subtrim configuration, used to fine-tune channel centering and drive responsiveness ahead of competition.*
+*FlySky transmitter subtrim configuration, used to fine-tune channel centering and drive response before competition.*
 
-## Testing & Demo
+### Drive Test
 
-<!-- DRIVING DEMO VIDEO -->
 <video src="https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c" controls width="200"></video>
 
-*FREEDOM's drivetrain under remote control. The weapon system isn't shown here, as no safe testing environment was available prior to competition.*
+*Drivetrain under remote control ahead of competition.*
 
-## Status
+---
 
-FREEDOM competed at NHRL as part of Villanova Combat Robotics' first-ever competition cohort. The night before competition, the CNC machine's chuck shattered with no replacement available, forcing the team to manually machine key weapon features under significant time pressure. This left no window to test the weapon system before competition, and the resulting parts had tolerance and balance error that the manual process couldn't fully control. Under competition RPM, this caused the weapon to vibrate loose mid-match, and the bot was eliminated quickly as a result. The weapon system, from CAD through machining and electrical integration, was designed, built, and fielded as a complete, competition-ready system, and this experience directly shaped both the lessons below and my priorities heading into this year's build.
+## Next Build
 
-## Lessons Learned
+This year I'm co-lead for the full robot, directing mechanical design and build scheduling across all subsystems while continuing to lead the weapon system. I'm also building a training curriculum for new members covering soldering, SolidWorks, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA.
 
-- **Build in schedule margin.** With no buffer before competition, a single equipment failure eliminated the ability to test before fielding the robot. Future builds need machining and assembly finished with enough lead time to survive a setback like this.
-- **Don't rely on a single point of failure for critical fabrication.** The CNC being unavailable with no backup plan (alternate machine, outside shop, or manual-machining-friendly design as a fallback) turned one broken part into a cascading failure.
-- **Weapon length likely drove much of the difficulty.** The weapon's length accounted for a large share of the robot's total weight, which tightened the margin everywhere else in the design and likely contributed to the tolerance and balance issues under manual machining.
-
-## Future Work
-
-This year, I'm stepping into a broader leadership role as co-lead for the entire robot, directing mechanical design and build scheduling across all subsystems, while continuing to lead weapon system development directly. I'm also developing a training curriculum for new members covering soldering, SolidWorks/CAD, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA, to build technical capacity across the growing team. Planned changes for the next build include:
-
-- **Shortening the weapon** to reduce weight, moment of inertia, and stress on the mount, easing both machining tolerances and structural demands
-- **Redesigning the weapon shape** to be more robust to imprecision from manual machining, in case CNC access is disrupted again
-- **Building schedule margin and equipment contingencies into the build timeline**, so a single point of failure can't eliminate the team's ability to test before competition
+- **Shorter weapon:** less weight, moment of inertia, and stress on the mount, easing machining tolerances and structural demands.
+- **More robust weapon shape:** tolerant of manual machining error in case CNC access is disrupted again.
+- **Schedule margin and equipment contingencies:** so a single failure can't eliminate testing before competition.
