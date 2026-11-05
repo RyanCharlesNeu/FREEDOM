@@ -131,7 +131,7 @@ https://github.com/user-attachments/assets/a1d59dde-191d-4497-a97f-fc3ec471614c
 
 ## Next Build
 
-This year I'm co-lead for the full robot, directing mechanical design and build scheduling across all subsystems while continuing to lead the weapon system. I'm also building a training curriculum for new members covering soldering, SolidWorks, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA.
+This year I'm engineering lead for the full robot, directing mechanical design and build scheduling across all subsystems while continuing to lead the weapon system. I'm also building a training curriculum for new members covering soldering, SolidWorks, embedded systems, machine shop fabrication (lathe, mill, CNC), and FEA.
 
 - **Shorter weapon:** less weight, moment of inertia, and stress on the mount, easing machining tolerances and structural demands.
 - **More robust weapon shape:** tolerant of manual machining error in case CNC access is disrupted again.
